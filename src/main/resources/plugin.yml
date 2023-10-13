@@ -1,0 +1,13 @@
+name: BedWars
+authors: [Uprank - Finn K.]
+version: 1.0-SNAPSHOT
+main: net.unestia.bedwars.BedWars
+api-version: '1.20'
+
+commands:
+  forcemap:
+    permission: bedwars.command.forcemap
+    description: you can change a map during the lobby time!
+  start:
+    permission: bedwars.command.start
+    description: starts the round
